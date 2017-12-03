@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook version="46">
+    <recipe>
+        <title>Pancakes</title>
+        <ingredient>
+            <li>1 cup all-purpose flour</li>
+            <li>1 tablespoon sugar</li>
+			<li>2 teaspoons baking powder</li>
+			<li>1/4 teaspoon salt</li>
+			<li>1 beaten egg</li>
+			<li>1 cup milk</li>
+			<li>2 teaspoons cooking oil</li>
+        </ingredient>
+        <recipetext>
+            <li>In a medium mixing bowl stir together the flour, sugar, baking powder and salt. Make a well in the center of the dry mixture; set aside.</li>
+            <li>In another medium mixing bowl combine the egg, milk, and cooking oil. Add egg mixture all at once to the dry mixture. Stir just till moistened (batter should be lumpy).</li>
+			<li>For standard-size pancakes, pour about 1/4 cup batter onto a hot, lightly greased griddle or heavy skillet. For dollar-size pancakes, pour about 1 tablespoon batter onto a hot, lightly greased griddle or heavy skillet. Cook over medium heat about 2 minutes on each side or till pancakes are golden brown, turning to second sides when pancakes have bubbly surfaces and edges are slightly dry. Serve warm. Makes 8 to 10 standard-size (4-inch) or 36 dollar-size (2-inch) pancakes (8 servings).</li>
+		</recipetext>
+        <imagepath>pancakes.png</imagepath>
+        <nutrition>
+            Per serving: 114 kcal cal., 5 g fat (1 g sat. fat, 29 mg chol., 181 mg sodium, 14 g carb., 0 g fiber, 3 g pro. Percent Daily Values are based on a 2,000 calorie diet
+        </nutrition>
+    </recipe>
+    <recipe>
+        <title>Meatballs</title>
+        <ingredient>
+            <li>4 eggs</li>
+            <li>1 cup milk</li>
+			<li>8 slices white bread, torn</li>
+			<li>2 pounds ground beef (or elk meat to preserve swedishness)</li>
+			<li>1/4 cup finely chopped onion</li>
+			<li>4 teaspoons baking powder</li>
+			<li>1 to 2 teaspoons salt</li>
+			<li>1 teaspoon pepper</li>
+			<li>2 tablespoons shortening</li>
+			<li>2 cans condensed cream of chicken soup, undiluted</li>
+			<li>2 cans condenced cream of mushroom soup, undiluted</li>
+			<li>1 can evaporated milk</li>
+			<li>Minced fresh parsley</li>
+        </ingredient>
+        <recipetext>
+            <li>In a large bowl, beat eggs and milk. Add bread; mix gently and let stand for 5 minutes. Add beef, onion, baking powder, salt and pepper; mix well (mixture will be soft). Shape into 1-in. balls.</li>
+			<li>In a large skillet, brown meatballs, a few at a time, in shortening. Place in an ungreased 3-qt. baking dish. In a bowl, stir soups and milk until smooth; pour over meatballs. Bake, uncovered, at 350 degrees for 1 hour. Sprinkle with parsley. Yield: 8-10 servings.</li>
+		</recipetext>
+        <imagepath>meatballs.jpg</imagepath>
+        <nutrition>
+            1 serving (1 each) equals 399 calories, 23 g fat (9 g saturated fat), 164 mg cholesterol, 1,065 mg sodium, 20 g carbohydrate, 1 g fiber, 27 g protein.
+        </nutrition>
+	</recipe>
+</cookbook>

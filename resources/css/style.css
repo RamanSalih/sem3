@@ -1,0 +1,221 @@
+body {
+	font:1em/1.4 Verdana, Arial, Helvetica, sans-serif; 
+}
+
+p {
+	text-align: center;
+}
+
+/*body * {
+	display:inline;
+}*/
+
+@media screen and (max-width : 1824px) {
+    ol.calendar {
+		width:52em;
+		min-height: 200px;
+		padding: 12px 0 0 20px;
+	}
+	li li {
+		width:6em;
+		height:6em;
+	}
+	li#labels li {
+		height:2em;
+		float:left;
+		margin:.2em; 
+		padding:.2em;
+	}
+	.imageContainer {
+		width: 31%;
+		padding-bottom: 31%;
+		float: left;
+		height: 0;
+		margin: 1%;
+	}
+}
+@media screen and (max-width : 850px) {
+    ol.calendar {
+		width:30em;
+		min-height: 200px;
+		padding: 12px 0 0 20px;
+	}
+	li li {
+		width:3em;
+		height:3em;
+	}
+	li#labels li {
+		font-size:12px;
+		width:4.4em;
+		height:1em;
+		float:left;
+	}
+	li li#pancake {
+		background-size: 35px 35px;
+	}
+	li li#meatball {
+		background-size: 35px 35px;
+	}
+	.imageContainer {
+		width: 31%;
+		padding-bottom: 31%;
+		float: left;
+		height: 0;
+		margin: 1%;
+	}
+}
+@media screen and (max-width : 550px) {
+	ol.calendar {
+		width:20em;
+		min-height: 100px;
+		padding: 12px 0 0 20px;
+	}
+	li li {
+		width:1.5em;
+		height:1.5em;
+	}
+	li#labels li {
+		font-size:0px;
+		width:2.5em;
+		height:1em;
+		float:left;
+	}
+	.imageContainer {
+		float: none;
+		width: 100%;
+	}
+	img#recipe {
+		max-width: 50%;
+		max-height: 50%;
+	}
+}
+
+img#recipe {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol.calendar  {
+	margin:0 auto;
+	display:block; 
+}
+
+li {
+	list-style:none;
+}
+
+ol.list li {
+	list-style:disc;
+}
+
+ul.list li {
+	list-style:disc;
+}
+
+ol#directions li {
+	list-style: decimal;
+}
+
+p.link {
+	text-align:center;
+	display: block;
+}
+
+h1 {
+	display: block; 
+	
+	/*text-indent:-9999px;*/ 
+	text-align: center;
+}
+
+/*
+ * Day styles
+ -------------------------*/
+li li {
+	
+	float:left;
+	margin:.2em; 
+	padding:.2em;
+	overflow:auto;
+	
+}
+
+/*			
+* Labels 
+--------------------------*/
+			
+li#labels li {
+	
+	overflow:visible;
+}		
+
+/* 
+* Content
+--------------------------*/
+
+li li#pancake {
+	background-image: url("pancake.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+li li#meatball {
+	background-image: url("meatball.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+/*
+ * Inactive months
+ -------------------------*/
+li#lastmonth li, li#nextmonth li {
+	/*background-color: grey;    hmm what to do here... */
+}
+
+
+/*
+ * Comment styling
+ -------------------------*/
+ 
+.comment_div {
+	background-color:white;
+	margin-top:10px;
+	text-align:left;
+}
+
+.comment_div .name {
+	height:30px;
+	line-height:30px;
+	padding:10px;
+	background-color:grey;
+	color:white;
+	text-align:left;
+}
+
+.comment_div p {
+	text-align: left;
+}
+
+.comment_div .comment {
+	padding:10px;
+}
+
+.comment_div .time {
+	font-style:italic;
+	padding:10px;
+	background-color:grey;
+	color:white;
+	text-align:left;
+}
